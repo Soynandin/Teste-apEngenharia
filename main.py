@@ -117,8 +117,8 @@ janela.title("Batatinha Frita 1, 2, 3")
 janela.geometry("800x600")
 
 # Carrega as imagens
-imagem_fechada = Image.open("C:\\Users\\ferna\\OneDrive\\Documentos\\Teste-apEngenharia\\imagens\\boneca_fechada.png")
-imagem_aberta = Image.open("C:\\Users\\ferna\\OneDrive\\Documentos\\Teste-apEngenharia\\imagens\\boneca_aberta.png")
+imagem_fechada = Image.open("imagens\boneca_fechada.png")
+imagem_aberta = Image.open("imagens\boneca_aberta.png")
 
 imagem_fechada_exibida = ImageTk.PhotoImage(imagem_fechada)
 imagem_aberta_exibida = ImageTk.PhotoImage(imagem_aberta)
