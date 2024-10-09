@@ -114,8 +114,8 @@ janela = tk.Tk()
 janela.title("Batatinha Frita 1, 2, 3")
 janela.geometry("800x600")
 
-imagem_fechada = Image.open("imagens\boneca_fechada.png")
-imagem_aberta = Image.open("imagens\boneca_aberta.png")
+imagem_fechada = Image.open("imagens/boneca_fechada.png")
+imagem_aberta = Image.open("imagens/boneca_aberta.png")
 
 imagem_fechada_exibida = ImageTk.PhotoImage(imagem_fechada)
 imagem_aberta_exibida = ImageTk.PhotoImage(imagem_aberta)
